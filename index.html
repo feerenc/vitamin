@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitaminok</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .table-container {
+            margin: 20px auto;
+            width: 50%;
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-family: 'Roboto', sans-serif;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #006400;
+            color: white;
+        }
+        td {
+            background-color: #b3ff99;
+        }
+    </style>
 </head>
 <body>
     <div id="cim">
@@ -38,6 +64,17 @@
     <div id="vitamin">
         <h1>K-vitamin</h1>
         
+    </div>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th colspan="2">header cell</th>
+            </tr>
+            <tr>
+                <td>cell 1</td>
+                <td>cell 2</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
