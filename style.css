@@ -2,13 +2,7 @@ body {
     background-image: url(zoldsegek-gyumolcsok-szezonja.webp);
     background-repeat: no-repeat;
     background-size: cover;
-}
-#cim {
-    text-align: center;
-    background-color: white;
-    margin-left: 30px;
-    margin-right: 30px;
-    
+    display: flex;
 }
 .table-container {
     margin: 20px auto;
@@ -35,4 +29,40 @@ th {
 td {
     background-color: #b3ff99;
     line-height: 1.5;
+}
+.title-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    background-color: #006400;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title-table th {
+    padding: 20px;
+    font-size: 24px;
+}
+.content {
+    flex: 3;
+    padding: 20px;
+}
+.extrainf {
+    width: 50%;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: #b3ff99;
+    border: 2px solid black;
+    font-size: small;
+}
+.extrainf td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
